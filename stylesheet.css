@@ -7,10 +7,6 @@ body {
   font-family: 'Questrial', sans-serif;
   background-color: lightskyblue;
   color:black;
-  /*background-image: url(/images/pastel.jpg);
-  background-repeat: no-repeat;
-  background-size: 2000px;*/
-  
 }
 
 .contact{
@@ -63,7 +59,6 @@ ul.nav {
 
 ul.nav li.nav{
   display: inline-block;
-  /*margin-top: 20px;*/
 }
 
 ul.nav li.nav a.nav{
@@ -72,7 +67,6 @@ ul.nav li.nav a.nav{
   padding: 7px 20px;
   border: 1px solid black;
   margin-right: 15px;
-  /*transition: 0.5s ease;*/
 }
 
 ul.nav li.nav a.nav:hover{
@@ -92,9 +86,39 @@ ul.nav li.nav a.nav:hover{
   margin-left: 45%;
 }
 
+ul.exp {
+  list-style-type: '>  ';
+  column-count: 2;
+  text-align: left;
+}
 
-/* All the below code is from w3schools.com */
+li.exp {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
+.whydali{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imgcenter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+}
+
+/* All of the below code is from w3schools.com, and I changed to according to my needs */
 .column {
   float: left;
   width: 30%;
@@ -104,7 +128,6 @@ ul.nav li.nav a.nav:hover{
 	justify-content: center;
   margin-left: 8%;
   margin-right: 9%
-  
 }
 
 /* Clear floats after the columns */
@@ -157,175 +180,3 @@ ul.nav li.nav a.nav:hover{
   color: black;
   transform: rotateY(180deg);
 }
-
-ul.exp {
-  list-style-type: '>  ';
-  column-count: 2;
-  text-align: left;
-}
-
-li.exp {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.whydali{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.imgcenter {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-figcaption{
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-  color: gray;
-  font-size: 12px;
-}
-
-
-/*body,
-head {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  width: 80%;
-  height: 98%;
-  background: linear-gradient(white, skyblue);
-  font-family: 'Questrial', sans-serif;
-}
-
-h1 {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  font-size: 45px;
-  text-shadow: 2px 2px 2px gray;
-  color: black;
-}
-
-h2 {
-  margin-top: 80px;
-  margin-bottom: 40px;
-  font-size: 40px;
-  font-family: "Didot", serif;
-  color: skyblue;
-  text-align: center;
-  text-shadow: 2px 2px 2px gray;
-  float: center;
-}
-
-h3 {
-  margin-top: 80px;
-  margin-bottom: 60px;
-  font-family: "Didot", serif;
-  font-size: 35px;
-  color: black;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-  text-shadow: 2px 2px 2px gray;
-}
-
-h4 {
-  font-family: "Didot", serif;
-  font-size: 20px;
-  color: palevioletred;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20px;
-  text-align: center;
-}
-
-p {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  color: black;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-p.about{
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-figcaption{
-  margin-left: 10%;
-  margin-right: 10%;
-
-  text-align: center;
-  color: gray;
-  font-size: 12px;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-
-ul.exp {
-  list-style-type: '>  ';
-  margin-left: 25%;
-  margin-right: 20%;
-  column-count: 2;
-}
-
-li.exp {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-ul.nav {
-  border: 1px solid #ccc;
-  border-width: 1px 0;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  text-align: center;
-}
-
-li.nav {
-  float: center;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  display: inline;
-}
-
-li a.nav, a.top{
-  display: inline-block;
-  color: gray;
-  padding: 10px;
-  text-decoration: none;
-}
-
-li a.nav:hover, a.top:hover {
-  /*background-color: white;
-  color: palevioletred;
-}
-
-section {
-  padding: 40px;
-}
-
-.imgcenter {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.txtcenter {
-  text-align: center;
-}
-
-.footer {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-} */
