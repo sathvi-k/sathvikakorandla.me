@@ -20,7 +20,7 @@
   </header>
 
   <h2> <center>WELCOME TO MY FUN PAGE! WOO HOO!!</center> </h2>
-  <br><br><br><br>
+  <br><br>
   
 
   <div class="row">
@@ -61,5 +61,49 @@
       </div>
     </div>
   </div>
+  
+  <br><br><br><br>
+  
+  <h3><center>These are some pictures that I've taken:</center></h3>
+  <!-- Javascript code!!! I got it to work!! -->
+  <script>
+    var i = 0;
+    var j = 0
+    var images = ['images/canyon.jpg', 'images/tajmahal.jpg', 'images/yellowstone.jpg', 'images/views.jpg', 'images/puddle.jpg', 'images/sky.jpg'];
+    var messages = ['The Grand Canyon', 'This is me at the Taj Mahal', 'Cheesin in Yellowstone', 'A picture I took right outside my neighborhood while running', 'The sky is falling!!', 'Another picture from a run'];
+    var time = 3000;
+
+    // Change image + caption
+    function changeImg(){
+      document.slide.src = images[i];
+      if (i < images.length - 1) {
+        i++;
+      } else {
+        i = 0;
+      }
+      setTimeout("changeImg()", time);
+    }
+    
+    function getText() {
+      document.getElementById('text').innerHTML = messages[j];
+      if (j < messages.length - 1) {
+        j++;
+      } else {
+        j = 0;
+      }
+      setTimeout("getText()", time);
+    }
+  
+    function load() {
+      changeImg();
+      getText();
+    }
+    window.onload=load;
+  </script> 
+
+<img name="slide" height="350" class="imgcenter">
+<br>
+<div id="text" style="text-align:center">></div>
+<br><br><br><br><br>
 </body>
 </html>

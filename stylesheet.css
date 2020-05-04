@@ -109,14 +109,6 @@ li.exp {
   margin-right: auto;
 }
 
-figcaption{
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-  color: gray;
-  font-size: 12px;
-}
-
 /* All of the below code is from w3schools.com, and I changed to according to my needs */
 .column {
   float: left;
